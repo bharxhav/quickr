@@ -2,3 +2,4 @@
 ^Readme\.Rmd$
 ^Readme\.html$
 ^Readme_files$
+^.*\.ipynb$
