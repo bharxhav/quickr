@@ -1,0 +1,8 @@
+Package: quickr
+Title: Quickly process data with R
+Version: 1
+Authors@R: 
+    person("Bhargav", "Kantheti", , "bhargavkantheti@gmail.com", role = c("aut", "cre"))
+Description: Automation increases creativity and improves project's scope.
+License: MIT + file LICENSE
+Encoding: UTF-8
