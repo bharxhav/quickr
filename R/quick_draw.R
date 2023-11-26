@@ -21,9 +21,9 @@ quick_draw <- function(df, factoring_threshold = 0.1, parsing_threshold = 5) {
             # Check for disguised nums
             non_numeric_count <- sum(!grepl("^\\d+\\.?\\d*$", df[[col]]))
             # Check for invalid characters, make them null
-            if (non_numeric_count / row_count < threshold) {
-                parsed_column <- suppressWarnings(
-                    ifelse(grepl("^\\d+\\.?\\d*$", column_data), as.numeric(column_data), NA)
+            if (non_numeric_count / row_count < parsing_threshold) {
+                df[[col]] <- suppressWarnings(
+                    ifelse(grepl("^\\d+\\.?\\d*$", df[[col]]), as.numeric(df[[col]]), NA)
                 )
             }
         } else if (class(df[[col]]) == "logical") {
