@@ -3,7 +3,7 @@ Type: Package
 Title: Automated Data Processing Using Statistics 
 Version: 0.1.0
 Author: Bhargav Kantheti
-Maintainer: bhargavkantheti@gmail.com
+Maintainer: Bhargav Kantheti <bhargavkantheti@gmail.com>
 Description: Automation increases creativity and improves project's scope.
 License: MIT + file LICENSE
 Encoding: UTF-8
