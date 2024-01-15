@@ -1,8 +1,10 @@
 Package: quickr
-Title: Quickly process data with R
-Version: 1
-Authors@R: 
-    person("Bhargav", "Kantheti", , "bhargavkantheti@gmail.com", role = c("aut", "cre"))
+Type: Package
+Title: Automated Data Processing Using Statistics 
+Version: 0.1.0
+Author: Bhargav Kantheti
+Maintainer: bhargavkantheti@gmail.com
 Description: Automation increases creativity and improves project's scope.
 License: MIT + file LICENSE
 Encoding: UTF-8
+LazyData: true
