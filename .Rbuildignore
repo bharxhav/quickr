@@ -3,3 +3,5 @@
 ^Readme\.html$
 ^Readme_files$
 ^.*\.ipynb$
+^.*\.Rproj$
+^\.Rproj\.user$
